@@ -7,6 +7,10 @@ import {
   newArrTwo,
   newArrThree,
   newArrFour,
+  newArrFive,
+  newArrSix,
+  newArrSeven,
+  newArrEight,
 } from "../../../assets/images/index";
 import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
@@ -54,7 +58,7 @@ const NewArrivals = () => {
           <Product
             _id="100001"
             img={newArrOne}
-            productName="Round Table Clock"
+            productName="Chuck Taylor Converse"
             price="44.00"
             color="Black"
             badge={true}
@@ -65,7 +69,7 @@ const NewArrivals = () => {
           <Product
             _id="100002"
             img={newArrTwo}
-            productName="Smart Watch"
+            productName="Tommy Hilfiger Boomber Jacket"
             price="250.00"
             color="Black"
             badge={true}
@@ -76,7 +80,7 @@ const NewArrivals = () => {
           <Product
             _id="100003"
             img={newArrThree}
-            productName="cloth Basket"
+            productName="Louis vuitton Bags"
             price="80.00"
             color="Mixed"
             badge={true}
@@ -87,7 +91,7 @@ const NewArrivals = () => {
           <Product
             _id="100004"
             img={newArrFour}
-            productName="Funny toys for babies"
+            productName="Timberland Cargo Pants"
             price="60.00"
             color="Mixed"
             badge={false}
@@ -97,8 +101,42 @@ const NewArrivals = () => {
         <div className="px-2">
           <Product
             _id="100005"
-            img={newArrTwo}
-            productName="Funny toys for babies"
+            img={newArrFive}
+            productName="Tommy Hilfiger Kids Hoodies"
+            price="60.00"
+            color="Mixed"
+            badge={false}
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          />
+        </div>
+        <div className="px-2">
+          <Product
+            _id="100005"
+            img={newArrSix}
+            productName="North Face Hoodies"
+            price="60.00"
+            color="Mixed"
+            badge={false}
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          />
+        </div>
+        <div className="px-2">
+          <Product
+            _id="100005"
+            img={newArrSeven}
+            productName="Hublot Watch for men"
+            price="60.00"
+            color="Mixed"
+            badge={false}
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          />
+        </div>
+
+        <div className="px-2">
+          <Product
+            _id="100005"
+            img={newArrEight}
+            productName="H&M Shirt"
             price="60.00"
             color="Mixed"
             badge={false}

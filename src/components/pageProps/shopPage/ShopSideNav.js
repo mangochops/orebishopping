@@ -1,13 +1,13 @@
 import React from "react";
 import Brand from "./shopBy/Brand";
-import Category from "./shopBy/Category";
+import ShoesCategory from "./shopBy/ShoesCategory";
 import Color from "./shopBy/Color";
 import Price from "./shopBy/Price";
 
-const ShopSideNav = () => {
+const ShoesSideNav = () => {
   return (
     <div className="w-full flex flex-col gap-6">
-      <Category icons={false} />
+      <ShoesCategory icons={false} />
       <Brand />
       <Color />
       <Price />
@@ -15,4 +15,4 @@ const ShopSideNav = () => {
   );
 };
 
-export default ShopSideNav;
+export default ShoesSideNav;

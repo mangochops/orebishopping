@@ -11,8 +11,8 @@ import Flex from "../../designLayouts/Flex";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(true);
   const [sidenav, setSidenav] = useState(false);
-  const [category, setCategory] = useState(false);
-  const [brand, setBrand] = useState(false);
+  // const [category, setCategory] = useState(false);
+  // const [brand, setBrand] = useState(false);
   const location = useLocation();
   useEffect(() => {
     let ResponsiveMenu = () => {
@@ -71,7 +71,7 @@ const Header = () => {
                 >
                   <div className="w-full h-full bg-primeColor p-6">
                     <img
-                      className="w-28 mb-6"
+                      className="w-28 mb-4 ml-auto mr-auto"
                       src={logoLight}
                       alt="logoLight"
                     />
@@ -91,7 +91,8 @@ const Header = () => {
                         </li>
                       ))}
                     </ul>
-                    <div className="mt-4">
+                    <h2 className="bottom-0">Powered by Mangochops</h2>
+                    {/* <div className="mt-4">
                       <h1
                         onClick={() => setCategory(!category)}
                         className="flex justify-between text-base cursor-pointer items-center font-titleFont mb-2"
@@ -107,9 +108,9 @@ const Header = () => {
                           className="text-sm flex flex-col gap-1"
                         >
                           <li className="headerSedenavLi">New Arrivals</li>
-                          <li className="headerSedenavLi">Gudgets</li>
+                          <li className="headerSedenavLi">Shoes</li>
                           <li className="headerSedenavLi">Accessories</li>
-                          <li className="headerSedenavLi">Electronics</li>
+                          <li className="headerSedenavLi">clothes</li>
                           <li className="headerSedenavLi">Others</li>
                         </motion.ul>
                       )}
@@ -136,7 +137,8 @@ const Header = () => {
                           <li className="headerSedenavLi">Others</li>
                         </motion.ul>
                       )}
-                    </div>
+                    </div> */}
+
                   </div>
                   <span
                     onClick={() => setSidenav(false)}

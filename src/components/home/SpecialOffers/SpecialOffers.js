@@ -6,13 +6,14 @@ import { useParams } from "react-router-dom";
 
 const SpecialOffers = () => {
   const { category } = useParams();
-
   const [data, setData] = useState([]);
+
   useEffect(() => {
     setData(SplOfferData);
-  }, [data]);
+  }, []); // The dependency array should be empty to run only once
 
   const catData = data.filter((item) => item.cat === category);
+
   return (
     <div className="w-full pb-20">
       <Heading heading="Special Offers" />
@@ -35,3 +36,4 @@ const SpecialOffers = () => {
 };
 
 export default SpecialOffers;
+

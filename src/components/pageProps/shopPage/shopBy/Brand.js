@@ -14,20 +14,44 @@ const Brand = () => {
   const brands = [
     {
       _id: 900,
-      title: "Pantum",
+      title: "Adidas",
     },
     {
       _id: 901,
-      title: "Hp",
+      title: "Clarks",
     },
     {
       _id: 902,
-      title: "Epson",
+      title: "Converse",
     },
 
     {
       _id: 903,
-      title: "Ricoh",
+      title: "Fendi",
+    },
+    {
+      _id: 904,
+      title: "Nike",
+    },
+    {
+      _id: 905,
+      title: "North Face",
+    },
+    {
+      _id: 906,
+      title: "Puma",
+    },
+    {
+      _id: 907,
+      title: "Timberland",
+    },
+    {
+      _id: 908,
+      title: "Tommy Hilifiger",
+    },
+    {
+      _id: 909,
+      title: "Vans",
     },
   ];
 
